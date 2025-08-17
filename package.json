@@ -1,0 +1,16 @@
+{
+  "name": "demo-cicd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "echo \"Building the project...\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "express": "^5.1.0",
+    "mocha": "^11.7.1"
+  }
+}
