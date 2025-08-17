@@ -24,6 +24,12 @@ pipeline {
             steps {
                 sh 'npm run build'
             }
+        }
+
+        stage('Build Docker Image') {
+            steps {
+                sh 'docker build -t my-node-app:2.0 .'  // Build image Docker
+            }
         }      
     }
 }
